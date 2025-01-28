@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #5555d873;
+}
+
+.form-container {
+    text-align: center;
+    background-color: #e2ddf1d5;
+    padding: 100px 100px;
+    border-radius: 100px;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+}
+
+input[type="text"],
+input[type="password"],
+#search-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #212f3f;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    padding: 15px;
+    background-color: #ffffff6b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product-details h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-details h4 {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.product-details h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-details a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 0.9em;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.product-details a:hover {
+    background-color: #000000;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#search-box {
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
